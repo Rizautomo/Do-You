@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name ="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- set the splash screen background to dark blue -->
+        <item name ="windowSplashScreenBackground">@color/darkBlue</item>
+        <!-- use windowsSplashScreenAnimatedIcon to add a drawable or an animated drawable -->
+        <item name ="windowSplashScreenAnimatedIcon">@drawable/yellow_logo</item>
+        <!-- acrivity that follows splash screen -->act
+    </style>
+
+</resources>
