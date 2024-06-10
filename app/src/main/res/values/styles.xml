@@ -5,7 +5,8 @@
         <item name ="windowSplashScreenBackground">@color/darkBlue</item>
         <!-- use windowsSplashScreenAnimatedIcon to add a drawable or an animated drawable -->
         <item name ="windowSplashScreenAnimatedIcon">@drawable/yellow_logo</item>
-        <!-- acrivity that follows splash screen -->act
+        <!-- acrivity that follows splash screen -->
+        <item name = "postSplashScreenTheme">@style/Theme.App.Starting</item>
     </style>
 
 </resources>
