@@ -38,12 +38,14 @@ android {
         jvmTarget = "17"
     }
 
-    buildFeatures{
+    buildFeatures {
         viewBinding = true
     }
+
     composeOptions{
         kotlinCompilerExtensionVersion = "2.0.0"
     }
+    buildToolsVersion = "34.0.0"
 }
 
 dependencies {
@@ -61,15 +63,5 @@ dependencies {
     //noinspection UseTomlInstead
     implementation("androidx.core:core-splashscreen:1.2.0-alpha01")
 
-    //viewmodel
-   /* implementation(libs.androidx.lifecycle.viewmodel.ktx)
-    implementation(libs.lifecycle.livedata.ktx)
-
-    //database
-    implementation(libs.androidx.room.runtime)
-    ksp(libs.room.compiler)
-
-
-    */
 
 }
