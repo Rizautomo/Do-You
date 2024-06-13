@@ -1,9 +1,15 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.DoYou" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.DoYou" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
     <style name="Theme.DoYou" parent="Base.Theme.DoYou" />
+    <!-- Base application theme. -->
+    <style name="Base.Theme.App.Starting" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
 </resources>
