@@ -16,6 +16,12 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
+    //dropdown
+    <string-array name="gender">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>>
+    </string-array>
+
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
@@ -73,4 +79,9 @@
     <string name="program_studi">Program Studi</string>
     <string name="pengalaman_kerja">Pengalaman Kerja</string>
     <string name="bidang_yang_disukai">Bidang yang disukai</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="mau_cari_apa">Mau cari apa?</string>
+    <string name="karir_tujuan">Karir Tujuan</string>
+    <string name="bangun_rencana_studimu_disini">Bangun Rencana Studimu Disini</string>
+    <string name="rekomendasi_studi">Rekomendasi Studi</string>
 </resources>

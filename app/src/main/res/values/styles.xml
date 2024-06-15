@@ -2,6 +2,7 @@
 <resources>
     <style name="Base.Theme.DoYou." parent="android:style/Theme.DeviceDefault"/>
 
+
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/darkBlue</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/yellow_logo</item>
