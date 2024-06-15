@@ -49,7 +49,7 @@
         app:layout_constraintVertical_bias="0.071" />
 
     <Button
-        android:id="@+id/career_skipped"
+        android:id="@+id/career_choosen"
         android:layout_width="349dp"
         android:layout_height="49dp"
         android:fontFamily="@font/andika_new_basic"
@@ -62,7 +62,7 @@
         app:layout_constraintVertical_bias="0.869" />
 
     <Button
-        android:id="@+id/career_choosen"
+        android:id="@+id/career_skipped"
         android:layout_width="349dp"
         android:layout_height="49dp"
         android:fontFamily="@font/andika_new_basic"

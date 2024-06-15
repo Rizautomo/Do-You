@@ -9,7 +9,7 @@
     <string name="masuk">Masuk</string>
     <string name="email">Email</string>
     <string name="password">Kata Sandi</string>
-    <string name="disini">Disini</string>
+    <string name="disini">disini</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -84,4 +84,6 @@
     <string name="karir_tujuan">Karir Tujuan</string>
     <string name="bangun_rencana_studimu_disini">Bangun Rencana Studimu Disini</string>
     <string name="rekomendasi_studi">Rekomendasi Studi</string>
+    <string name="login">Login</string>
+    <string name="belum_memiliki_akun_daftar">Belum memiliki akun daftar</string>
 </resources>

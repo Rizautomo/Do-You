@@ -19,5 +19,11 @@ class StudyRecommendation : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_study_recommendation)
 
+        val goMain : Button = findViewById(R.id.study_skipped)
+        goMain.setOnClickListener {
+            val intentMain = Intent(this@StudyRecommendation, MainActivity::class.java)
+            startActivity(intentMain)
+        }
+
     }
 }
