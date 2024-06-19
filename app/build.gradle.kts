@@ -76,5 +76,11 @@ dependencies {
     //database
     implementation(libs.androidx.datastore.preferences)
 
+    // retrofit
+    implementation (libs.retrofit2.retrofit)
+
+    // Gson converter
+    implementation (libs.retrofit2.converter.gson)
+
 
 }
