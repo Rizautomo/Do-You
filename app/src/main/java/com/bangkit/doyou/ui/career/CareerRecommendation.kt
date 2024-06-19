@@ -14,8 +14,7 @@ class CareerRecommendation : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_career_recommendation)
-
-
+        enableEdgeToEdge()
         val nextStudy: Button = findViewById(R.id.career_skipped)
         nextStudy.setOnClickListener {
             val intentStudy = Intent(this@CareerRecommendation, StudyRecommendation::class.java)

@@ -11,6 +11,7 @@ import com.bangkit.doyou.ui.welcome.MainActivity
 import com.bangkit.doyou.R
 import com.bangkit.doyou.ui.career.CareerRecommendation
 import com.bangkit.doyou.ui.login.LoginActivity
+import com.bangkit.doyou.ui.welcome.WelcomeActivity
 
 @Suppress("DEPRECATION")
 class SplashScreen : AppCompatActivity() {
@@ -19,8 +20,8 @@ class SplashScreen : AppCompatActivity() {
         setContentView(R.layout.activity_splash_screen)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            startActivity(Intent(this@SplashScreen, LoginActivity::class.java))
+            startActivity(Intent(this@SplashScreen, WelcomeActivity::class.java))
             finish()
-        }, 1000)
+        }, 3000)
      }
     }

@@ -11,6 +11,7 @@
     android:id="@+id/user_profile2"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+        android:contentDescription="@string/user"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHorizontal_bias="0.044"
@@ -39,7 +40,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
         android:fontFamily="@font/andika_new_basic_bold"
-        android:text="Pengaturan Karir"
+        android:text="@string/pengaturan_karir"
         android:textSize="26sp"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -54,6 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/blue_block"
+        android:contentDescription="@string/wrapper_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,9 +84,11 @@
         android:layout_height="58dp"
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="51dp"
+        android:contentDescription="@string/personal_information"
         android:background="@color/darkBlue"
         android:fontFamily="@font/andika_new_basic"
-        android:text="Input Data Diri"
+        android:textColor="@color/white"
+        android:text="@string/input_data_diri"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
@@ -97,6 +101,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/btn_nav_bg"
+        android:contentDescription="@string/bottom_navigation"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
@@ -109,6 +114,7 @@
         android:layout_width="46dp"
         android:layout_height="43dp"
         android:src="@drawable/home"
+        android:contentDescription="@string/home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.147"
@@ -121,6 +127,7 @@
         android:layout_width="42dp"
         android:layout_height="42dp"
         android:src="@drawable/search"
+        android:contentDescription="@string/search"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -133,6 +140,7 @@
         android:layout_width="38dp"
         android:layout_height="41dp"
         android:src="@drawable/user"
+        android:contentDescription="@string/profile"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.809"
@@ -140,7 +148,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.949" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/edit_programstudi"
         android:layout_width="329dp"
         android:layout_height="43dp"
@@ -156,7 +164,7 @@
         app:layout_constraintTop_toTopOf="@+id/wrapper_career"
         app:layout_constraintVertical_bias="0.146" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/edit_experience"
         android:layout_width="325dp"
         android:layout_height="44dp"
@@ -171,7 +179,7 @@
         app:layout_constraintTop_toTopOf="@+id/wrapper_career"
         app:layout_constraintVertical_bias="0.289" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/edit_field"
         android:layout_width="325dp"
         android:layout_height="44dp"
@@ -186,52 +194,37 @@
         app:layout_constraintTop_toTopOf="@+id/wrapper_career"
         app:layout_constraintVertical_bias="0.445" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/edit_skill"
         android:layout_width="325dp"
         android:layout_height="44dp"
         android:ems="10"
         android:fontFamily="@font/andika_new_basic"
         android:inputType="text"
-        android:text="Skill"
+        android:text="@string/skill"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/wrapper_career"
         app:layout_constraintEnd_toEndOf="@+id/wrapper_career"
         app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="@+id/wrapper_career"
         app:layout_constraintTop_toTopOf="@+id/wrapper_career"
-        app:layout_constraintVertical_bias="0.734" />
+        app:layout_constraintVertical_bias="0.597" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/jenis_kelamin"
-        app:hintTextColor="@color/black"
-        android:textColorHint="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.402"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:startIconDrawable="@drawable/user">
-
-        <AutoCompleteTextView
-            android:id="@+id/tv_dropdown"
-            android:layout_width="348dp"
-            android:layout_height="48dp"
-            android:background="@color/lightBlue"
-            android:textColor="@color/black"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.65"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.647" />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edit_gender"
+        android:layout_width="325dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:fontFamily="@font/andika_new_basic"
+        android:inputType="text"
+        android:text="@string/jenis_kelamin"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/wrapper_career"
+        app:layout_constraintEnd_toEndOf="@+id/wrapper_career"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/wrapper_career"
+        app:layout_constraintTop_toTopOf="@+id/wrapper_career"
+        app:layout_constraintVertical_bias="0.751" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

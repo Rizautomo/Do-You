@@ -5,6 +5,7 @@ plugins {
     id("kotlin-android")
     id("com.google.devtools.ksp")
     id("kotlin-parcelize")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -60,6 +61,7 @@ dependencies {
     implementation(libs.androidx.annotation)
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.firebase.auth)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -67,6 +69,12 @@ dependencies {
     // splash screen
     //noinspection UseTomlInstead
     implementation("androidx.core:core-splashscreen:1.2.0-alpha01")
+
+    //firebase auth
+    implementation (libs.firebase.auth.ktx)
+
+    //database
+    implementation(libs.androidx.datastore.preferences)
 
 
 }

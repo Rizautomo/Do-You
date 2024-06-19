@@ -9,6 +9,7 @@
 
     <ImageView
         android:id="@+id/user_profile2"
+        android:contentDescription="Profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,6 +54,7 @@
         android:id="@+id/wrapper_career_goal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/wrapper_yellow"
         android:src="@drawable/yellow_block"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,6 +82,7 @@
         android:id="@+id/wrapper_career_rec"
         android:layout_width="385dp"
         android:layout_height="428dp"
+        android:contentDescription="@string/wrapper_blue"
         android:src="@drawable/blue_block"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -108,6 +111,7 @@
         android:background="@color/darkBlue"
         android:fontFamily="@font/andika_new_basic"
         android:text="@string/bangun_rencana_studimu_disini"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
@@ -119,6 +123,7 @@
         android:id="@+id/btn_nav"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/wrapper_bottom_nav"
         android:src="@drawable/btn_nav_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -131,6 +136,7 @@
         android:id="@+id/home_btn"
         android:layout_width="46dp"
         android:layout_height="43dp"
+        android:contentDescription="@string/home"
         android:src="@drawable/home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -144,6 +150,7 @@
         android:layout_width="42dp"
         android:layout_height="42dp"
         android:src="@drawable/search"
+        android:contentDescription="@string/search"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -156,15 +163,12 @@
         android:layout_width="38dp"
         android:layout_height="41dp"
         android:src="@drawable/user"
+        android:contentDescription="@string/profile"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.809"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.949" />
-
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

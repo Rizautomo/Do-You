@@ -86,4 +86,18 @@
     <string name="rekomendasi_studi">Rekomendasi Studi</string>
     <string name="login">Login</string>
     <string name="belum_memiliki_akun_daftar">Belum memiliki akun daftar</string>
+    <string name="selamat_datang_di">Selamat Datang di</string>
+    <string name="do_you">DO-YOU!</string>
+    <string name="user">User</string>
+    <string name="home">Home</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="profile">Profile</string>
+    <string name="search">Search</string>
+    <string name="logo">Logo</string>
+    <string name="wrapper_yellow">Wrapper Yellow</string>
+    <string name="wrapper_blue">Wrapper_blue</string>
+    <string name="wrapper_bottom_nav">Wrapper Bottom Nav</string>
+    <string name="bottom_navigation">Bottom Navigation</string>
+    <string name="input_data_diri">Input Data Diri</string>
+    <string name="skill">Skill</string>
 </resources>

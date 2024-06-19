@@ -8,6 +8,7 @@
     android:background="@color/white"
     tools:context=".ui.welcome.MainActivity">
 
+
     <TextView
         android:id="@+id/id_username"
         android:layout_width="wrap_content"
@@ -42,23 +43,24 @@
         app:layout_constraintVertical_bias="0.103"
         tools:textSize="20sp" />
 
+
     <ImageView
         android:id="@+id/wrapper_rec"
-        android:layout_width="387dp"
-        android:layout_height="418dp"
+        android:layout_width="370dp"
+        android:layout_height="522dp"
         android:src="@drawable/blue_block"
+        android:contentDescription="@string/wrapper_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722" />
-
+        app:layout_constraintVertical_bias="0.583" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/random_reccomendation"
-        android:layout_width="314dp"
-        android:layout_height="389dp"
+        android:layout_width="333dp"
+        android:layout_height="447dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
@@ -68,12 +70,13 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/id_username"
-        app:layout_constraintVertical_bias="0.452" />
+        app:layout_constraintVertical_bias="0.105" />
 
     <ImageView
         android:id="@+id/btn_nav"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/wrapper_bottom_nav"
         android:src="@drawable/btn_nav_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -87,6 +90,7 @@
         android:layout_width="46dp"
         android:layout_height="43dp"
         android:src="@drawable/home"
+        android:contentDescription="@string/home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.147"
@@ -99,6 +103,7 @@
         android:layout_width="42dp"
         android:layout_height="42dp"
         android:src="@drawable/search"
+        android:contentDescription="@string/search"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -111,6 +116,7 @@
         android:layout_width="38dp"
         android:layout_height="41dp"
         android:src="@drawable/user"
+        android:contentDescription="@string/profile"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.809"

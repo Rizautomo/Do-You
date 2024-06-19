@@ -12,6 +12,7 @@
         android:id="@+id/user_profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+           android:contentDescription="@string/profile"
         android:src="@drawable/user"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,16 +25,15 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
         android:fontFamily="@font/andika_new_basic"
         android:text="@string/nama"
         android:textSize="26sp"
-        app:layout_constraintBottom_toTopOf="@+id/career_skipped"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintHorizontal_bias="0.21"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.081" />
 
     <Button
         android:id="@+id/btn_career"
@@ -42,6 +42,7 @@
         android:fontFamily="@font/andika_new_basic"
         android:text="@string/pengaturan_karir"
         android:background="@color/darkBlue"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,6 +56,7 @@
         android:fontFamily="@font/andika_new_basic"
         android:text="@string/rencana_studi"
         android:background="@color/darkBlue"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

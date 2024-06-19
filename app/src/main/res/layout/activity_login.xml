@@ -12,32 +12,21 @@
         android:layout_width="157dp"
         android:layout_height="120dp"
         android:src="@drawable/blue_logo"
+        android:contentDescription="@string/logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.149" />
 
-
-    <TextView
-        android:id="@+id/tv_daftar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/andika_new_basic_bold"
-        android:text="Daftar"
-        android:textSize="23sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.113"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.416" />
-
     <EditText
-        android:id="@+id/login_email"
+        android:id="@+id/editTextTextEmailAddress"
         android:layout_width="323dp"
         android:layout_height="58dp"
         android:ems="10"
+        android:hint="@string/email"
+        android:fontFamily="@font/andika_new_basic"
+        android:autofillHints="emailAddress"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,20 +35,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.505" />
 
+
     <TextView
-        android:id="@+id/req_email"
-        android:layout_width="53dp"
-        android:layout_height="25dp"
-        android:fontFamily="@font/andika_new_basic"
-        android:text="@string/email"
-        android:textSize="16sp"
+        android:id="@+id/tv_daftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/andika_new_basic_bold"
+        android:text="@string/login"
+        android:textSize="23sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintHorizontal_bias="0.113"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="322dp"
         android:layout_height="58dp"
@@ -101,33 +92,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.771" />
 
-    <TextView
-        android:id="@+id/register"
-        android:layout_width="189dp"
-        android:layout_height="33dp"
-        android:fontFamily="@font/andika_new_basic"
-        android:text="@string/belum_memiliki_akun_daftar"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.189"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.912" />
-
-    <TextView
-        android:id="@+id/btn_register"
-        android:layout_width="189dp"
-        android:layout_height="33dp"
-        android:fontFamily="@font/andika_new_basic"
-        android:text="@string/disini"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.912" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

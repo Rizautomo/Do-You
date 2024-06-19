@@ -24,6 +24,7 @@
 
         <ImageView
             android:id="@+id/wrapper_study_rec"
+            android:contentDescription="@string/wrapper_blue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/blue_block"
@@ -40,13 +41,12 @@
             android:layout_height="465dp"
             android:layout_marginStart="1dp"
             android:layout_marginEnd="1dp"
-            android:layout_marginBottom="68dp"
-            app:layout_constraintBottom_toTopOf="@+id/study_skipped"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintHorizontal_bias="0.532"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/career_rec"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.436" />
 
         <Button
             android:id="@+id/study_choose"
@@ -54,24 +54,28 @@
             android:layout_height="49dp"
             android:fontFamily="@font/andika_new_basic"
             android:text="@string/pilih"
+            android:textColor="@color/white"
+            android:background="@color/darkBlue"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintHorizontal_bias="0.548"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.865" />
+            app:layout_constraintVertical_bias="0.869" />
 
         <Button
             android:id="@+id/study_skipped"
             android:layout_width="349dp"
             android:layout_height="49dp"
+            android:background="@color/darkBlue"
             android:fontFamily="@font/andika_new_basic"
             android:text="@string/lewati_untuk_sekarang"
+            android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.677"
+            app:layout_constraintHorizontal_bias="0.548"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.953" />
+            app:layout_constraintVertical_bias="0.957" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

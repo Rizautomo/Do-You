@@ -11,6 +11,7 @@
 
         <ImageView
             android:id="@+id/user_profile2"
+            android:contentDescription="@string/profile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -56,6 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/yellow_block"
+            android:contentDescription="@string/wrapper_yellow"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.636"
@@ -84,6 +86,7 @@
             android:layout_height="428dp"
             android:src="@drawable/blue_block"
             app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="@string/wrapper_blue"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -103,6 +106,7 @@
 
     <ImageView
             android:id="@+id/btn_nav"
+        android:contentDescription="@string/wrapper_bottom_nav"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/btn_nav_bg"
@@ -115,6 +119,7 @@
 
         <ImageButton
             android:id="@+id/home_btn"
+            android:contentDescription="@string/home"
             android:layout_width="46dp"
             android:layout_height="43dp"
             android:src="@drawable/home"
@@ -127,6 +132,7 @@
 
         <ImageButton
             android:id="@+id/search_btn"
+            android:contentDescription="@string/search"
             android:layout_width="42dp"
             android:layout_height="42dp"
             android:src="@drawable/search"
@@ -139,6 +145,7 @@
 
         <ImageButton
             android:id="@+id/btn_user"
+            android:contentDescription="@string/profile"
             android:layout_width="38dp"
             android:layout_height="41dp"
             android:src="@drawable/user"
