@@ -26,6 +26,7 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
         setContentView(R.layout.activity_login)
 
         //intent login
@@ -33,6 +34,7 @@ class LoginActivity : AppCompatActivity() {
         loginActivity.setOnClickListener {
             val nextLoginActivity = Intent(this@LoginActivity, CareerRecommendation::class.java)
             startActivity(nextLoginActivity)
+            Toast.makeText(this@LoginActivity, "Login Berhasil!", Toast.LENGTH_SHORT).show()
         }
 
         // firebase system login

@@ -33,25 +33,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.335" />
 
-    <TextView
-        android:id="@+id/nama_signUp"
-        android:layout_width="53dp"
-        android:layout_height="25dp"
-        android:fontFamily="@font/andika_new_basic"
-        android:text="@string/nama"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.117"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.415" />
-
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/reg_nama"
         android:layout_width="323dp"
         android:layout_height="58dp"
         android:ems="10"
+        android:hint="@string/nama"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,25 +47,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.414" />
 
-    <TextView
-        android:id="@+id/tv_signUp_email"
-        android:layout_width="53dp"
-        android:layout_height="25dp"
-        android:fontFamily="@font/andika_new_basic"
-        android:text="@string/email"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.117"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/reg_email"
         android:layout_width="323dp"
         android:layout_height="58dp"
         android:ems="10"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -87,26 +62,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.505" />
 
-    <TextView
-        android:id="@+id/tv_signUp_pass"
-        android:layout_width="85dp"
-        android:layout_height="21dp"
-        android:fontFamily="@font/andika_new_basic"
-        android:text="@string/password"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.128"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.581" />
-
-
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/reg_pass"
         android:layout_width="322dp"
         android:layout_height="58dp"
         android:ems="10"
+        android:hint="@string/password"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -115,26 +76,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.591" />
 
-    <TextView
-        android:id="@+id/tv_signUp_re_pass"
-        android:layout_width="312dp"
-        android:layout_height="30dp"
-        android:fontFamily="@font/andika_new_basic"
-        android:text="@string/masukkan_kembali_kata_sandi"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.424"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.664" />
-
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/reg_re_pass"
         android:layout_width="322dp"
         android:layout_height="58dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:hint="@string/masukkan_kembali_kata_sandi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.449"

@@ -14,6 +14,7 @@ import com.bangkit.doyou.ui.signup.SignUpActivity
 class WelcomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
         setContentView(R.layout.activity_welcome)
 
         //intent

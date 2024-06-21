@@ -50,32 +50,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.416" />
 
-    <com.google.android.material.textfield.TextInputEditText
+    <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="322dp"
         android:layout_height="58dp"
         android:ems="10"
+        android:contentDescription="@string/password"
         android:inputType="textPassword"
+        android:hint="@string/password"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.449"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.591" />
-
-    <TextView
-        android:id="@+id/req_pass"
-        android:layout_width="85dp"
-        android:layout_height="21dp"
-        android:fontFamily="@font/andika_new_basic"
-        android:text="@string/password"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.128"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.581" />
 
 
     <Button

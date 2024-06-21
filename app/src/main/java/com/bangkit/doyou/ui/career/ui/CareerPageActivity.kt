@@ -18,6 +18,7 @@ import com.bangkit.doyou.ui.welcome.MainActivity
 class CareerPageActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
         setContentView(R.layout.activity_career_page)
 
         val goHome: ImageButton = findViewById(R.id.home_btn)

@@ -18,6 +18,7 @@ class SignUpActivity : AppCompatActivity() {
     private lateinit var auth : FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
         setContentView(R.layout.activity_sign_up)
 
         // intent
@@ -25,6 +26,7 @@ class SignUpActivity : AppCompatActivity() {
         goLogin.setOnClickListener {
             val intentLogin = Intent(this@SignUpActivity, LoginActivity::class.java)
             startActivity(intentLogin)
+            Toast.makeText(this@SignUpActivity, "Pendaftaran Berhasil!", Toast.LENGTH_SHORT).show()
         }
 
         /*

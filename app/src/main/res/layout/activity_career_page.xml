@@ -9,15 +9,15 @@
 
     <ImageView
         android:id="@+id/user_profile2"
-        android:contentDescription="Profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="Profile"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintHorizontal_bias="0.071"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
+        app:layout_constraintVertical_bias="0.068"
         app:srcCompat="@drawable/user" />
 
     <TextView
@@ -35,20 +35,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.164" />
 
+
     <TextView
         android:id="@+id/career_goal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/andika_new_basic_bold"
         android:text="Pengaturan Karir"
-        android:textSize="26sp"
         android:textColor="@color/black"
+        android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
-
+        app:layout_constraintVertical_bias="0.075" />
 
     <ImageView
         android:id="@+id/wrapper_career_goal"

@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -21,9 +22,9 @@ class CareerPrepUI : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
         binding = ActivityCareerPrepUiBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         val gender = resources.getStringArray(R.array.gender)
 
         /*
@@ -55,6 +56,7 @@ class CareerPrepUI : AppCompatActivity() {
         goCareer.setOnClickListener {
             val intentCareerPrepUI = Intent(this@CareerPrepUI, CareerPageActivity::class.java)
             startActivity(intentCareerPrepUI)
+            Toast.makeText(this@CareerPrepUI, "Rekomendasi Karir Berhasil didapatkan!", Toast.LENGTH_SHORT).show()
         }
     }
 }
