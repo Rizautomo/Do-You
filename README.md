@@ -48,3 +48,13 @@ Awaiting for server readyness on cloud
 ![Screenshot_2024-06-19-14-54-59-540_com bangkit doyou](https://github.com/Rizautomo/Do-You/assets/78152595/f4f06652-7601-4961-bd88-cdd00ca0b0f9)
 ![Screenshot_2024-06-19-14-54-57-189_com bangkit doyou](https://github.com/Rizautomo/Do-You/assets/78152595/52c828ae-6084-4512-8a3b-a49b8c2e9ffb)
 ![Screenshot_2024-06-19-14-54-55-021_com bangkit doyou](https://github.com/Rizautomo/Do-You/assets/78152595/1164b071-2aa7-456d-a806-64ee7298ce1c)
+
+
+
+
+
+
+![Screenshot 2024-06-21 083934](https://github.com/Rizautomo/Do-You/assets/78152595/1c58f568-0106-4cfb-9c5a-247054ca4cb5)
+![Screenshot 2024-06-21 083925](https://github.com/Rizautomo/Do-You/assets/78152595/58cedda2-5884-4f22-a44f-2a7261374616)
+
+
