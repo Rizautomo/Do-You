@@ -36,7 +36,7 @@ Awaiting for server readyness on cloud
 
 
 [SCREENSHOTS]
-![Screenshot 2024-06-21 083934](https://github.com/Rizautomo/Do-You/assets/78152595/1c58f568-0106-4cfb-9c5a-247054ca4cb5)
 ![Screenshot 2024-06-21 083925](https://github.com/Rizautomo/Do-You/assets/78152595/58cedda2-5884-4f22-a44f-2a7261374616)
+![Screenshot 2024-06-21 083934](https://github.com/Rizautomo/Do-You/assets/78152595/1c58f568-0106-4cfb-9c5a-247054ca4cb5)
 
 
