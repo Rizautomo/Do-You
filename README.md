@@ -8,6 +8,35 @@ Figma UI/UX: https://www.figma.com/design/nMrYp9ltwgej5n1eNgM4rI/do-you-c241-ps5
 
 */
 
+/*
+
+Second commit 
+
+Do slicing from Figma UI/UX
+
+Downloading some png for logo, background, and button navigation from Figma 
+
+Import such a png to Figma
+
+Create such a layout following Figma design
+
+Create static logic for activity movement
+
+*/
+
+/* 
+
+Third commit 
+
+Backend configuration pending == 
+
+Awaiting for server readyness on cloud
+
+/*
+
+
+[SCREENSHOTS]
+
 ![Screenshot_2024-06-19-14-54-51-928_com bangkit doyou](https://github.com/Rizautomo/Do-You/assets/78152595/1755cbc0-b5df-4cb2-92ec-66dd59652523)
 ![Screenshot_2024-06-19-14-54-48-759_com bangkit doyou](https://github.com/Rizautomo/Do-You/assets/78152595/a38562a4-f1b3-49d5-9f96-e08d6861bd8d)
 ![Screenshot_2024-06-19-14-56-05-219_com bangkit doyou](https://github.com/Rizautomo/Do-You/assets/78152595/5ca63e2c-2df3-45a1-9752-30771af70725)
